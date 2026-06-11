@@ -1,0 +1,11 @@
+﻿GITHUB UPLOAD INSTRUCTIONS
+
+Upload the CONTENTS inside this folder to your GitHub repository.
+Do not upload this folder as a zip.
+Do not upload older Desktop zip files.
+
+Upload in this order if GitHub gives trouble:
+1. Upload all HTML files, README.md, and .nojekyll, then Commit changes.
+2. Upload the assets folder, then Commit changes.
+
+After upload, go to repository Settings > Pages > Source: Deploy from a branch > main > /root > Save.

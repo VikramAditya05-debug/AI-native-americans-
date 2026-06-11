@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register for a Seminar | AI Institute for Native Americans</title>
+    <meta name="description" content="Register for an AI Institute for Native Americans seminar and proceed to secure payment.">
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body class="register-page register-exact-page">
+    <main class="register-exact-shell" aria-label="Register for a seminar page">
+      <img class="register-exact-image" src="assets/register-exact.png" alt="Register for a Seminar page for AI Institute for Native Americans">
+
+      <a class="register-hotspot register-nav-home" href="index.html" aria-label="Home"></a>
+      <a class="register-hotspot register-nav-about" href="about.html" aria-label="About Us"></a>
+      <a class="register-hotspot register-nav-seminars" href="seminars.html" aria-label="Seminars"></a>
+      <a class="register-hotspot register-nav-causes" href="causes.html" aria-label="Causes and Giving"></a>
+      <a class="register-hotspot register-nav-why" href="why-it-matters.html" aria-label="Why It Matters"></a>
+      <a class="register-hotspot register-nav-contact" href="contact.html" aria-label="Contact"></a>
+      <a class="register-hotspot register-nav-register" href="register.html" aria-label="Register Now"></a>
+
+      <form class="register-form-layer" data-registration-form aria-label="Seminar registration form">
+        <label class="register-label register-full-name-label" for="fullName">Full Name</label>
+        <input class="register-control register-field-full-name" id="fullName" name="fullName" autocomplete="name" required>
+
+        <label class="register-label register-email-label" for="email">Email Address</label>
+        <input class="register-control register-field-email" id="email" type="email" name="email" autocomplete="email" required>
+
+        <label class="register-label register-phone-label" for="phone">Phone Number</label>
+        <input class="register-control register-field-phone" id="phone" type="tel" name="phone" autocomplete="tel" required>
+
+        <label class="register-label register-organization-label" for="organization">Organization / Tribe</label>
+        <input class="register-control register-field-organization" id="organization" name="organization" required>
+
+        <label class="register-label register-role-label" for="role">Job Title / Role</label>
+        <select class="register-control register-field-role" id="role" name="role">
+          <option value="">Select your role</option>
+          <option>Finance / Accounting</option>
+          <option>Grants / Program Manager</option>
+          <option>Enterprise &amp; Operations</option>
+          <option>Workforce / Education</option>
+          <option>Tribal Member / Job Seeker</option>
+          <option>Other</option>
+        </select>
+
+        <fieldset class="register-describes" aria-label="Which best describes you">
+          <legend>Which best describes you?</legend>
+          <label><input type="radio" name="describes" value="Finance & Accounting"> Finance &amp; Accounting</label>
+          <label><input type="radio" name="describes" value="Workforce / Education"> Workforce / Education</label>
+          <label><input type="radio" name="describes" value="Grants & Program Manager"> Grants &amp; Program Manager</label>
+          <label><input type="radio" name="describes" value="Tribal Member / Job Seeker"> Tribal Member / Job Seeker</label>
+          <label><input type="radio" name="describes" value="Enterprise & Operations"> Enterprise &amp; Operations</label>
+          <label><input type="radio" name="describes" value="Other"> Other</label>
+        </fieldset>
+
+        <fieldset class="register-date-layer" aria-label="Select seminar date">
+          <legend>Select Seminar Date</legend>
+          <label class="register-date-option register-date-july">
+            <input type="radio" name="seminarDate" value="July 30-31, 2026" required checked>
+            <span>July 30 - 31, 2026</span>
+          </label>
+          <label class="register-date-option register-date-aug-one">
+            <input type="radio" name="seminarDate" value="August 13-14, 2026">
+            <span>August 13 - 14, 2026</span>
+          </label>
+          <label class="register-date-option register-date-aug-two">
+            <input type="radio" name="seminarDate" value="August 27-28, 2026">
+            <span>August 27 - 28, 2026</span>
+          </label>
+          <label class="register-date-option register-date-sept">
+            <input type="radio" name="seminarDate" value="September 10-11, 2026">
+            <span>September 10 - 11, 2026</span>
+          </label>
+        </fieldset>
+
+        <label class="register-contribution register-contribution-women">
+          <input type="checkbox" name="protectingNativeWomen" value="25" data-contribution>
+          <span>Protecting Native American Women</span>
+        </label>
+        <label class="register-contribution register-contribution-water">
+          <input type="checkbox" name="protectingWater" value="0" data-contribution>
+          <span>Protecting Our Water</span>
+        </label>
+        <label class="register-contribution register-contribution-sovereignty">
+          <input type="checkbox" name="supportingSovereignty" value="50" data-contribution>
+          <span>Supporting Native American Sovereignty</span>
+        </label>
+        <label class="register-label register-custom-label" for="customAmount">Custom Amount</label>
+        <input class="register-control register-custom-amount" id="customAmount" type="number" name="customAmount" min="0" step="1" inputmode="decimal" data-custom-amount>
+
+        <div class="register-hidden-summary" aria-live="polite">
+          <span data-subtotal>$1,595.00</span>
+          <span data-contribution-total>$0.00</span>
+          <span data-total>$1,595.00</span>
+          <span class="status-message" data-payment-status></span>
+        </div>
+
+        <button class="register-hotspot register-pay-button" type="submit" data-pay-button aria-label="Proceed to secure payment">Proceed to Secure Payment</button>
+      </form>
+
+      <a class="register-hotspot register-group-pricing" href="contact.html" aria-label="Request group pricing"></a>
+      <a class="register-hotspot register-email-list" href="contact.html" aria-label="Join our email list"></a>
+
+      <a class="register-hotspot register-footer-home" href="index.html" aria-label="Footer home"></a>
+      <a class="register-hotspot register-footer-about" href="about.html" aria-label="Footer about us"></a>
+      <a class="register-hotspot register-footer-seminars" href="seminars.html" aria-label="Footer seminars"></a>
+      <a class="register-hotspot register-footer-causes" href="causes.html" aria-label="Footer causes and giving"></a>
+      <a class="register-hotspot register-footer-why" href="why-it-matters.html" aria-label="Footer why it matters"></a>
+      <a class="register-hotspot register-footer-contact" href="contact.html" aria-label="Footer contact"></a>
+
+      <div class="register-exact-accessible">
+        <h1>Register for a Seminar</h1>
+        <p>Invest in your skills. Strengthen your Nation.</p>
+      </div>
+    </main>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
